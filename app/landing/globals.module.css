@@ -1,0 +1,14 @@
+.body {
+  background-image: url('../img/desktopImage.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+   
+}
+
+@media only screen and (max-width: 600px) {
+  .body {
+      background-image: url('../img/mobileImage.jpg');
+ 
+  }
+}
